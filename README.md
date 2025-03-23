@@ -1,4 +1,4 @@
-# PlayerManagementSystem
+# Player Management System
 Player management system is project which is built using C programming language. 
 
 Problem Statement: 
