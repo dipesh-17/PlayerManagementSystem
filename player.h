@@ -8,6 +8,7 @@ typedef struct Player{
 	int wickets;
 	int matchesPlayed;
 }Player;
+
 //Global Variables Declerations
 Player *p;//Creating array(p) of type Player 
 void addPlayer(Player*,int*);
