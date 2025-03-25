@@ -4,7 +4,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-
 void addPlayer(Player* p,int *count){
 		printf("\nEnter Details for Player %d\n", *count + 1);
 		printf("Enter player jersey number: ");
@@ -135,7 +134,8 @@ void updatePlayerData(Player* p,int* count){
 				    printf("Current Matches Played: %d\n",p[i].matchesPlayed);
 				    printf("Enter updated matches played count (or 0 to keep current): ");
 				    scanf("%d",&newValue);
-				    if(newValue!=0){
+				    if(newValue!=0)
+				    {
 				    	p[i].matchesPlayed = newValue;
 				    	printf("\nMatches played updated to %d.\n",p[i].matchesPlayed);
 					}
